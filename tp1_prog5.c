@@ -21,6 +21,8 @@ void main(){
             sum[id]+=4.0/(1.0+x*x);
         }
         for(i=0, pi=0.0; i<nthreads;i++)pi+=sum[i]*step;
+        //-
+        printf("[PI:(%f)]", pi);
     }
     //-
     printf("[PI:(%f)]", pi);
