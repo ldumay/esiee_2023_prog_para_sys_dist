@@ -2,33 +2,33 @@
 
 ## TP 1 - OpenMP & MPI
 
-### Pré-requis
+Prévu pour tourner sur un ubuntu 😉
 
-- GCC : 
-- OpenMp : 
+### 1 - Pré-requis
 
-=> Lib : `libomp-dev`
+- GCC : `gcc`
+- OpenMp : `libomp-dev`
 
-```
-brew install libomp
-```
-
-=> Compilateur : `gcc`
+Commande possible :
 
 ```
-gcc -v
-Apple clang version 14.0.0 (clang-1400.0.29.202)
-Target: x86_64-apple-darwin21.6.0
-Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+apt install git tree nano libomp-dev gcc
 ```
 
-=> Exécution
+### 2 - Programme Hello World
+
+Compilation du petit programme **Hello World** dans le fichier `prog_1.C`.
+
+Exécution
 
 ```
-gcc prog_1.c -o prog_1.out
-```
-
-```
+cd esiee_2023_prog_para_sys_emb/tp_1/
 gcc -fopenmp prog_1.c -o prog_1.out
+```
+
+Résultat :
+
+```
+ls
+prog_1.c  prog_1.out
 ```
