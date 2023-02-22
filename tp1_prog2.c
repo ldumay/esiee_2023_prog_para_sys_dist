@@ -15,7 +15,7 @@ int main()
         float f;
         for(int i=0; i<x; i++){
             f = 4.0 / ( 1 + i ^ 2);
-            sum += f;
+            sum = sum + f;
         }
         printf("f: %f\n", f);
     }
