@@ -2,7 +2,7 @@
 #include <math.h>
 #include <omp.h>
 
-static long num_steps = 10000;
+static long num_steps = 100000;
 double step;
 int main(){
     int i; double x, pi, sum = 0.0;
