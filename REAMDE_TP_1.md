@@ -15,7 +15,7 @@ Commande possible :
 apt install git tree nano libomp-dev gcc
 ```
 
-### 2 - Programme Hello World
+### 2 - Programme 1 - Hello World
 
 Compilation du petit programme **Hello World** dans le fichier `tp1_prog1.c`.
 
@@ -35,4 +35,13 @@ hello(3)world(3)
 hello(0)world(0) 
 hello(1)world(1) 
 hello(2)world(2) 
+```
+
+### 2 - Programme 2
+
+```
+gcc -fopenmp tp1_prog2.c -o tp1_prog2.out
+tree
+tp1_prog2.c  tp1_prog2.out
+./tp1_prog2.out
 ```
