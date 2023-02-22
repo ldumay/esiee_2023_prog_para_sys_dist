@@ -2,7 +2,7 @@
 
 ## TP 1 - OpenMP & MPI
 
-Prévu pour tourner sur un ubuntu 😉
+Prévu et testé pour tourner sur un Ubuntu 😉
 
 ### 1 - Pré-requis
 
