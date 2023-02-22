@@ -4,6 +4,9 @@
 
 ### Pré-requis
 
+- GCC : 
+- OpenMp : 
+
 => Lib : `libomp-dev`
 
 ```
