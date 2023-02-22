@@ -72,10 +72,10 @@ gcc -fopenmp tp1_prog4.c -o tp1_prog4.out && tree && ./tp1_prog4.out
 Correction
 
 ```
-gcc -fopenmp tp1_prog5.c -o tp1_prog5.out && tree && ./tp1_prog5.out
+gcc -fopenmp tp1_prog5.c -o tp1_prosg5.out && tree && ./tp1_prog5.out
 ```
 
-> `tp1_prog5.c` : ok ✔
+> `tp1_prog5.c` : ok ✔ mais donne 0.0000 🤷‍♂️
 
 -------------------------------------------------------------------------
 
