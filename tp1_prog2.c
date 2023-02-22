@@ -22,9 +22,9 @@ int main()
     float f;
     for(int i=0; i<x; i++){
         f = fonction_de_f(i);
+        printf("f: %f\n", f);
         add_to_sum_des_f(f);
     }
-    printf("f: %f\n", f);
 
     printf("Resultat : sum=%f\n", sum);
 }
