@@ -13,7 +13,7 @@ int main()
     //-
     omp_set_num_threads(NB_THREADS);
     //-
-	#pragma omp parallel num_threads()
+	#pragma omp parallel
 	{
         //-init
 		int get_NB_THREADS = omp_get_num_threads();
