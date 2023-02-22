@@ -2,7 +2,7 @@
 #include <omp.h>
 
 //Nombre de steps
-float sum;
+float sum = 0;
 int x = 100;
 
 int main()
