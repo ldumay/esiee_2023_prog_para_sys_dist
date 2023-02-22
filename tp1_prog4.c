@@ -34,6 +34,6 @@ int main()
             pi += step * sum[i];
         }
         //-
-        printf("[PI:(%f)]", pi);
+        printf("[PI:(%f)]\n", pi);
 	}
 }

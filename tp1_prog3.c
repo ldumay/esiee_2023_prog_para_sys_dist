@@ -13,5 +13,5 @@ int main(){
     }
     pi = step * sum;
     //-
-    printf("[PI:(%f)]", pi);
+    printf("[PI:(%f)]\n", pi);
 }
