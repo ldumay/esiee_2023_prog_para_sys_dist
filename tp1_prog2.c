@@ -2,7 +2,7 @@
 #include <math.h>
 #include <omp.h>
 
-int x = 10000;
+int x = 100;
 float moyenne, f, sum = 0.0;
 
 int main()
