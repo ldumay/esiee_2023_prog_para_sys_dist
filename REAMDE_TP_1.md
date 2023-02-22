@@ -67,6 +67,16 @@ Mise en parallèle du programme.
 gcc -fopenmp tp1_prog4.c -o tp1_prog4.out && tree && ./tp1_prog4.out
 ```
 
+> `tp1_prog4.c` : non terminé
+
+Correction
+
+```
+gcc -fopenmp tp1_prog5.c -o tp1_prog5.out && tree && ./tp1_prog5.out
+```
+
+> `tp1_prog5.c` : ok
+
 -------------------------------------------------------------------------
 
 ### 3 - Programme 3
