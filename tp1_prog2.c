@@ -8,10 +8,15 @@ int main()
 {
     #pragma omp parallel
     {
-        float result;
+        float sum;
+        float f;
+
         for(int i=0; i<x; i++){
-            result = 4.0 / ( 1 + i ^ 2);
+            f = 4.0 / ( 1 + i ^ 2);
+            sum += f;
         }
-        printf("result : %f\n", result);
+        printf("f: %f\n", f);
+
+        printf("sum=%f", sum);
     }
 }
