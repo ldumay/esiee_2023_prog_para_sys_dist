@@ -8,6 +8,7 @@ int x = 100;
 int main()
 {
     printf("steps : %d\n", x);
+    printf("sum : %f\n", sum);
 
     #pragma omp parallel
     {
