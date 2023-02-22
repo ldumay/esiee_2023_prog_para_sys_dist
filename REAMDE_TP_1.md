@@ -45,3 +45,16 @@ tree
 tp1_prog2.c  tp1_prog2.out
 ./tp1_prog2.out
 ```
+
+### 3 - Programme 3
+
+```
+gcc -fopenmp tp1_prog3.c -o tp1_prog3.out
+tree
+tp1_prog3.c  tp1_prog3.out
+./tp1_prog3.out
+
+ je suis le pere, monpid = 3374 et le pid de mon fils = 3375 et le gd pere = 2507
+ je suis le fils, monpid = 3375 et le pid de mon pere = 3374
+valeur retournee par mon fils = 20
+```
