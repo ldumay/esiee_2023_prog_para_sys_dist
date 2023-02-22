@@ -1,10 +1,16 @@
+#include <unistd.h>
+#include <sys/wait.h>
+#include <sys/types.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <omp.h>
 
-double A[1000];
+//Nombre de steps
+int x = 100;
 
-omp_set_num_threads(4);
 #pragma omp parallel
 {
-    int ID = omp_set_num_threads();
-    pooth(ID, A);
+    for(int i=0; i<x; i++){
+        4.0 / ( 1 + i ^ 2)
+    }
 }

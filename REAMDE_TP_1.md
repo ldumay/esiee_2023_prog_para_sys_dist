@@ -37,7 +37,9 @@ hello(1)world(1)
 hello(2)world(2) 
 ```
 
-### 2 - Programme 2
+### 2 - Programme 2 - 
+
+**CF** : PDF Exercice 2 - Intégration numérique
 
 ```
 gcc -fopenmp tp1_prog2.c -o tp1_prog2.out
