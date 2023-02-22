@@ -49,7 +49,7 @@ Programmation des foncitons mathématiques en **C**.
 gcc -fopenmp tp1_prog2.c -o tp1_prog2.out && tree && ./tp1_prog2.out
 ```
 
-> `tp1_prog2.c` : non terminé
+> `tp1_prog2.c` : ok ✔
 
 Correction
 
@@ -57,7 +57,7 @@ Correction
 gcc -fopenmp tp1_prog3.c -o tp1_prog3.out && tree && ./tp1_prog3.out
 ```
 
-> `tp1_prog3.c` : ok
+> `tp1_prog3.c` : ok ✔
 
 #### Partie 2
 
@@ -75,7 +75,7 @@ Correction
 gcc -fopenmp tp1_prog5.c -o tp1_prog5.out && tree && ./tp1_prog5.out
 ```
 
-> `tp1_prog5.c` : ok
+> `tp1_prog5.c` : ok ✔
 
 -------------------------------------------------------------------------
 
