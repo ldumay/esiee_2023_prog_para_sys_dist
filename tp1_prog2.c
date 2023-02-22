@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 #include <omp.h>
 
 //Nombre de steps
@@ -10,15 +11,20 @@ int main()
     printf("steps : %d\n", x);
     printf("sum : %f\n", sum);
 
-    #pragma omp parallel
-    {
-        float f;
-        for(int i=0; i<x; i++){
-            f = 4.0 / ( 1 + i ^ 2);
-            sum += f;
-        }
-        printf("f: %f\n", f);
+    float f;
+    for(int i=0; i<x; i++){
+        f = fonction_de_f(i);
+        add_to_sum_des_f(f);
     }
+    printf("f: %f\n", f);
 
     printf("Resultat : sum=%f\n", sum);
+}
+
+float fonction_de_f(int x){
+    return 4.0 / ( 1 + x ^ 2);
+}
+
+float add_to_sum_des_f(float x){
+    sum += x;
 }
