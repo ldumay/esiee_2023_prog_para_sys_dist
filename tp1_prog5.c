@@ -22,4 +22,6 @@ void main(){
         }
         for(i=0, pi=0.0; i<nthreads;i++)pi+=sum[i]*step;
     }
+    //-
+    printf("[PI:(%f)]", pi);
 }

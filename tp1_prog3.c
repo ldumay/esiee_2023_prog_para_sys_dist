@@ -12,4 +12,6 @@ int main(){
         sum = sum + 4.0 / (1.0 + x * x);
     }
     pi = step * sum;
+    //-
+    printf("[PI:(%f)]", pi);
 }
