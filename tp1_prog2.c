@@ -8,7 +8,7 @@ int x = 100;
 float moyenne = 0;
 
 float fonction_de_f(int x){
-    return 4.0 / ( 1 + x * 2);
+    return 4.0 / ( 1 + x * x);
 }
 
 float sum_des_f(){
