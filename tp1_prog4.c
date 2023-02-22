@@ -25,7 +25,7 @@ int main()
         printf("\nThreads");
 		printf("[Nb threads:(%d)]", NB_THREADS);
         printf("[Id thread:(%d)]", ID);
-        printf("[Temps en secondes:(%d)]", TIME);
+        printf("[TIME:(%d)]", TIME);
         float itsPI = getPI();
         printf("[PI:(%f)]", itsPI);
 	}
