@@ -19,7 +19,7 @@ apt install git tree nano libomp-dev gcc
 
 Compilation du petit programme **Hello World** dans le fichier `prog_1.C`.
 
-Exécution
+Compilation
 
 ```
 cd esiee_2023_prog_para_sys_emb/tp_1/
@@ -31,4 +31,16 @@ Résultat :
 ```
 ls
 prog_1.c  prog_1.out
+```
+
+Exécution
+
+```
+export OMP_NUM_THREADS=4
+./prog_1.out
+
+hello(3)world(3) 
+hello(0)world(0) 
+hello(1)world(1) 
+hello(2)world(2) 
 ```
