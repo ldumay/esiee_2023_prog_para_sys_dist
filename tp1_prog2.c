@@ -24,7 +24,6 @@ int main()
 {
     printf("steps : %d\n", x);
     result = sum_des_f();
-    printf("sum : %f\n", result);
-    sum_des_f();
-    printf("Resultat : sum=%f\n", result);
+    printf("\nsum : %f\n", result);
+    printf("\nResultat : sum=%f\n", result);
 }
