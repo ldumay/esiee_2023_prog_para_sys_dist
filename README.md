@@ -1,5 +1,5 @@
-# ESIEE-IT 2023 - Programme parallèle et système embarqué
+# ESIEE-IT 2023 - Programme parallèle et système distribué
 
-Mise en application d'un cours de programme parallèle et système embarqué avec [OpenMP](https://fr.wikipedia.org/wiki/OpenMP) et [MPI](https://fr.wikipedia.org/wiki/MPI).
+Mise en application d'un cours de programme parallèle et système distribué avec [OpenMP](https://fr.wikipedia.org/wiki/OpenMP) et [MPI](https://fr.wikipedia.org/wiki/MPI).
 
 ▶ [REAMDE_TP_1](REAMDE_TP_1.md)
