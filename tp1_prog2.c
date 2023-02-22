@@ -6,6 +6,14 @@
 float sum = 0;
 int x = 100;
 
+float fonction_de_f(int x){
+    return 4.0 / ( 1 + x ^ 2);
+}
+
+float add_to_sum_des_f(float x){
+    sum += x;
+}
+
 int main()
 {
     printf("steps : %d\n", x);
@@ -19,12 +27,4 @@ int main()
     printf("f: %f\n", f);
 
     printf("Resultat : sum=%f\n", sum);
-}
-
-float fonction_de_f(int x){
-    return 4.0 / ( 1 + x ^ 2);
-}
-
-float add_to_sum_des_f(float x){
-    sum += x;
 }
