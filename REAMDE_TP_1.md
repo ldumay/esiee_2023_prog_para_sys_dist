@@ -23,5 +23,9 @@ InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault
 => Exécution
 
 ```
+gcc prog_1.c -o prog_1.out
+```
+
+```
 gcc -fopenmp prog_1.c -o prog_1.out
 ```
