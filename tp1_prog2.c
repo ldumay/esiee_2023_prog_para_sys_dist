@@ -12,6 +12,6 @@ int main()
         for(int i=0; i<x; i++){
             result = 4.0 / ( 1 + i ^ 2);
         }
-        printf("result : %f", result);
+        printf("result : %f/n", result);
     }
 }

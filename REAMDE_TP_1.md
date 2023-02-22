@@ -42,10 +42,7 @@ hello(2)world(2)
 **CF** : PDF Exercice 2 - Intégration numérique
 
 ```
-gcc -fopenmp tp1_prog2.c -o tp1_prog2.out
-tree
-tp1_prog2.c  tp1_prog2.out
-./tp1_prog2.out
+gcc -fopenmp tp1_prog2.c -o tp1_prog2.out && tree && ./tp1_prog2.out
 ```
 
 ### 3 - Programme 3
