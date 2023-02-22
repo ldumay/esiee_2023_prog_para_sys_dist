@@ -2,7 +2,7 @@
 
 static long num_steps = 100000;
 double step;
-#define NUM_THREADS 2;
+#define NUM_THREADS 2
 
 void main(){
     int i, nthreads; double pi, sum[NUM_THREADS];
