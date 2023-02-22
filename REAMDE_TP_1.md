@@ -19,3 +19,9 @@ Target: x86_64-apple-darwin21.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
+
+=> Exécution
+
+```
+gcc -fopenmp prog_1.c -o prog_1.out
+```
