@@ -2,6 +2,8 @@
 #include <math.h>
 #include <omp.h>
 
+static int nb_threads = 10;
+
 float getPI(){
     long num_steps = 10000;
     int i; double step, x, pi, sum = 0.0;
@@ -15,14 +17,16 @@ float getPI(){
 
 int main()
 {
-	#pragma omp parallel
+	#pragma omp parallel num_threads(nb_threads)
 	{
 		int NB_THREADS = omp_get_num_threads();
         int ID = omp_get_thread_num();
         int TIME = omp_get_wtime();
-        printf("Threads");
-		printf("\n[Nb threads:(%d)]", NB_THREADS);
+        printf("\nThreads");
+		printf("[Nb threads:(%d)]", NB_THREADS);
         printf("[Id thread:(%d)]", ID);
         printf("[Temps en secondes:(%d)]", TIME);
+        float itsPI = getPI();
+        printf("[PI:(%f)]", itsPI);
 	}
 }
