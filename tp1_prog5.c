@@ -20,6 +20,6 @@ void main(){
             x=(i+0.5)*step;
             sum[id]+=4.0/(1.0+x*x);
         }
-        for(i=0, pi =0.0; i<nthreads;i++)pi+=sum[i]*step;
+        for(i=0, pi=0.0; i<nthreads;i++)pi+=sum[i]*step;
     }
 }
