@@ -1,6 +1,6 @@
 [Retour](../../)
 
-# TP 1 - OpenMP & MPI
+# TP 1 - OpenMP & MPI - Partie 1
 
 Prévu et testé pour tourner sur un Ubuntu 😉
 
