@@ -1,21 +1,10 @@
 [Retour](../../)
 
-## TP 1 - OpenMP & MPI
+# TP 1 - OpenMP & MPI
 
 Prévu et testé pour tourner sur un Ubuntu 😉
 
-### 1 - Pré-requis
-
-- GCC : `gcc`
-- OpenMp : `libomp-dev`
-
-Commande possible :
-
-```
-apt install git tree nano libomp-dev gcc
-```
-
-### 2 - Programme 1 - Hello World
+## Programme 1 - Hello World
 
 Compilation du petit programme **Hello World** dans le fichier `tp1_prog1.c`.
 
@@ -37,9 +26,9 @@ hello(1)world(1)
 hello(2)world(2) 
 ```
 
-### 2 - Programme 2 - 
+## Programme 2 - [...]
 
-#### Partie 1
+### Partie 1
 
 **CF** : PDF Exercice 2 - Intégration numérique
 
@@ -59,7 +48,7 @@ gcc -fopenmp tp1_prog3.c -o tp1_prog3.out && tree && ./tp1_prog3.out
 
 > `tp1_prog3.c` : ok ✔
 
-#### Partie 2
+### Partie 2
 
 Mise en parallèle du programme.
 
@@ -79,7 +68,7 @@ gcc -fopenmp tp1_prog5.c -o tp1_prosg5.out && tree && ./tp1_prog5.out
 
 -------------------------------------------------------------------------
 
-### 3 - Programme 3
+## Programme 3
 
 ```
 gcc -fopenmp tp1_prog10.c -o tp1_prog10.out
