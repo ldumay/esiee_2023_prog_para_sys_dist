@@ -26,18 +26,22 @@ Mise en application d'un cours de programme parallèle et système distribué av
 >
 > **Attention :** la librairie `libomp` n'a pas pu être utilisé.
 
+## Help
+
+▶ [HELP MACOS - NOT READY](HELP_MACOS.md)
+
 ## TP
 
 ▶ [README_TP_1](README_TP_1.md)
 
 ▶ [README_TP_2](README_TP_2.md)
 
----
-
 ## Test et cours
 
 ▶ [README_TEST](README_TEST.md)
 
----
+##
 
-▶ [HELP MACOS - NOT READY](HELP_MACOS.md)
+```
+./clearOut.sh
+```
