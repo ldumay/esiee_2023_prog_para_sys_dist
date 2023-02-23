@@ -6,7 +6,9 @@ Prévu et testé pour tourner sur un Ubuntu 😉
 
 ## Programme 1
 
-Mise en parallèle du programme `tp2_prog1.c` avec réduction.
+Superficie de l'ensemble de Mandelbrot :
+- [wiki](https://fr.wikipedia.org/wiki/Ensemble_de_Mandelbrot)
+- Programme parallèle : `tp2_prog1.c`.
 
 ```
 gcc -fopenmp tp2_prog1.c -o tp2_prog1.out && tree && ./tp2_prog1.out
