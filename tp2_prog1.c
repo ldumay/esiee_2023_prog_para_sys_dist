@@ -53,7 +53,7 @@ int main(){
     error=area/(double)NPOINTS;
 	//-
 	printf("-- Superficie de l'ensemble de Mandelbrot ---\n");
-	printf("DEBUT\n", eps);
+	printf("DEBUT\n");
 	printf("Variables de base :\n");
     printf("- NPOINTS:(%d)\n", NPOINTS);
 	printf("- MXITR:(%d)\n", MXITR);
@@ -61,5 +61,5 @@ int main(){
 	printf("- area:(%f)\n", area);
 	printf("- error:(%f)\n", error);
 	printf("- eps:(%f)\n", eps);
-	printf("FIN", eps);
+	printf("FIN\n");
 }
