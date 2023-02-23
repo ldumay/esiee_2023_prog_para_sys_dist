@@ -43,4 +43,12 @@ int main(){
     }
     area=2.0*2.5*1.125*(double)(NPOINTS*NPOINTS-numoutside)/(double)(NPOINTS*NPOINTS);
     error=area/(double)NPOINTS;
+	//-
+	printf("Variables de base :");
+    printf("\n- NPOINTS:(%f)", NPOINTS);
+	printf("\n- MXITR:(%f)", MXITR);
+	printf("Résultat :");
+	printf("\n- area:(%f)", area);
+	printf("\n- error:(%f)", error);
+	printf("\n- eps:(%f)", eps);
 }
