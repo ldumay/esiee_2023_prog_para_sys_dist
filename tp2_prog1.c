@@ -3,6 +3,15 @@
 # define NPOINTS 1000
 # define MXITR 1000
 
+struct d_complex{
+    double r;
+    double i;
+};
+
+struct d_complex c;
+
+int numoutside = 0;
+
 void testpoint(void) {
 	struct d_complex z;
 	int iter;
@@ -20,13 +29,6 @@ void testpoint(void) {
 }
 
 void testpoint(void);
-struct d_complex{
-    double r;
-    double i;
-};
-
-struct d_complex c;
-int numoutside = 0;
 
 int main(){
     int i, j;
