@@ -40,8 +40,8 @@ Mise en application d'un cours de programme parallèle et système distribué av
 
 ▶ [README_TEST](README_TEST.md)
 
-##
+## Clear
 
 ```
-./clearOut.sh
+rm -r *.out
 ```
