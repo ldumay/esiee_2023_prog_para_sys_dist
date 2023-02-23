@@ -34,6 +34,8 @@ Mise en application d'un cours de programme parallèle et système distribué av
 
 ---
 
+## Test et cours
+
 ▶ [README_TEST](README_TEST.md)
 
 ---
