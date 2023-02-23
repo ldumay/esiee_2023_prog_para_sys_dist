@@ -23,6 +23,8 @@ Mise en application d'un cours de programme parallèle et système distribué av
 > ```
 > brew install git tree nano libomp gcc
 > ```
+>
+> **Attention :** la librairie `libomp` n'a pas pu être utilisé.
 
 ## TP
 
