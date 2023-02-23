@@ -21,7 +21,7 @@ Mise en application d'un cours de programme parallèle et système distribué av
 > ▶ *Pour MacOS :*
 >
 > ```
-> brew install git tree nano libomp-dev gcc
+> brew install git tree nano libomp gcc
 > ```
 
 ## TP
