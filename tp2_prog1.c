@@ -52,13 +52,14 @@ int main(){
     area=2.0*2.5*1.125*(double)(NPOINTS*NPOINTS-numoutside)/(double)(NPOINTS*NPOINTS);
     error=area/(double)NPOINTS;
 	//-
+	printf("-- Superficie de l'ensemble de Mandelbrot ---\n");
 	printf("DEBUT\n", eps);
-	printf("Variables de base :");
-    printf("\n- NPOINTS:(%d)", NPOINTS);
-	printf("\n- MXITR:(%d)", MXITR);
-	printf("\nRésultat :");
-	printf("\n- area:(%f)", area);
-	printf("\n- error:(%f)", error);
-	printf("\n- eps:(%f)", eps);
-	printf("\nFIN", eps);
+	printf("Variables de base :\n");
+    printf("- NPOINTS:(%d)\n", NPOINTS);
+	printf("- MXITR:(%d)\n", MXITR);
+	printf("Résultat :"\n);
+	printf("- area:(%f)\n", area);
+	printf("- error:(%f)\n", error);
+	printf("- eps:(%f)\n", eps);
+	printf("FIN", eps);
 }
