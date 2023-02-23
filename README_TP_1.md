@@ -32,7 +32,7 @@ hello(2)world(2)
 
 **CF** : PDF Exercice 2 - Intégration numérique
 
-Programmation des foncitons mathématiques en **C**.
+Programmation des fonctions mathématiques en **C**.
 
 ```
 gcc -fopenmp tp1_prog2.c -o tp1_prog2.out && tree && ./tp1_prog2.out
