@@ -45,3 +45,7 @@ Mise en application d'un cours de programme parallèle et système distribué av
 ```
 rm -r *.out
 ```
+
+## Recherches
+
+- [Introduction to OpenMP - Tim Mattson (Intel)](https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
