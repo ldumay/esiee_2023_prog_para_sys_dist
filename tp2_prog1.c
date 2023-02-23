@@ -47,7 +47,7 @@ int main(){
 	printf("Variables de base :");
     printf("\n- NPOINTS:(%f)", NPOINTS);
 	printf("\n- MXITR:(%f)", MXITR);
-	printf("Résultat :");
+	printf("\nRésultat :");
 	printf("\n- area:(%f)", area);
 	printf("\n- error:(%f)", error);
 	printf("\n- eps:(%f)", eps);
