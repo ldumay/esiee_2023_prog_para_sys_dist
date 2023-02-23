@@ -49,3 +49,4 @@ rm -r *.out
 ## Recherches
 
 - [Introduction to OpenMP - Tim Mattson (Intel)](https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
+- [PDF supplémentaire](http://www.idris.fr/media/formations/openmp/idris_openmp_tp-v2.8.pdf)
