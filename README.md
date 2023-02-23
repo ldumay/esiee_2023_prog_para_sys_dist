@@ -12,8 +12,16 @@ Mise en application d'un cours de programme parallèle et système distribué av
 
 > Voici une commande possible pour installer toutes les dépendances nécessaires :
 > 
+> ▶ *Pour Ubuntu :*
+>
 > ```
 > apt install git tree nano libomp-dev gcc
+> ```
+>
+> ▶ *Pour MacOS :*
+>
+> ```
+> brew install git tree nano libomp-dev gcc
 > ```
 
 ## TP
