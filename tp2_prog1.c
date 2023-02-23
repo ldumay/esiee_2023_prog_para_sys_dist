@@ -34,7 +34,14 @@ void testpoint(void);
 int main(){
     int i, j;
     double area, error, eps = 1.0e-5;
-    #pragma omp parallel for default(shared) private (c,eps)
+    /*
+	 *	Avant :
+	 *	#pragma omp parallel for default(shared) private (c,eps)
+	 *	
+	 *	Après :
+	 *	#pragma omp parallel for default(shared) private(c,j)  firstprivate(eps
+	 */
+	#pragma omp parallel for default(shared) private(c,j)  firstprivate(eps)
     for (i=0; i<NPOINTS; i++) {
         for (j=0; j<NPOINTS; j++) {
             c.r = -2.0+2.5*(double)(i)/(double)(NPOINTS)+eps;
@@ -45,12 +52,13 @@ int main(){
     area=2.0*2.5*1.125*(double)(NPOINTS*NPOINTS-numoutside)/(double)(NPOINTS*NPOINTS);
     error=area/(double)NPOINTS;
 	//-
+	printf("\nDEBUT\n", eps);
 	printf("Variables de base :");
-    printf("\n- NPOINTS:(%lf)", NPOINTS);
-	printf("\n- MXITR:(%lf)", MXITR);
+    printf("\n- NPOINTS:(%d)", NPOINTS);
+	printf("\n- MXITR:(%d)", MXITR);
 	printf("\nRésultat :");
-	printf("\n- area:(%lf)", area);
-	printf("\n- error:(%lf)", error);
-	printf("\n- eps:(%lf)", eps);
-	printf("\n", eps);
+	printf("\n- area:(%f)", area);
+	printf("\n- error:(%f)", error);
+	printf("\n- eps:(%f)", eps);
+	printf("\nFIN\n", eps);
 }
