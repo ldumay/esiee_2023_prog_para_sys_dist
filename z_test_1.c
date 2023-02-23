@@ -17,11 +17,10 @@ void modelOne(){
 
 void modelTwo(){
     int i, A[MAX];
-    #pragma omp parallel for{
-        for(i=0; i<MAX; i++){
-            int j = 5+2*(i+1);
-            A[i] = big(j);
-        }
+    #pragma omp parallel for
+    for(i=0; i<MAX; i++){
+        int j = 5+2*(i+1);
+        A[i] = big(j);
     }
     printf("modelTwo - A:(%d)\n", A);
 }
