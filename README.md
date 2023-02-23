@@ -26,7 +26,9 @@ Mise en application d'un cours de programme parallèle et système distribué av
 
 ## TP
 
-▶ [REAMDE_TP_1](REAMDE_TP_1.md)
+▶ [README_TP_1](README_TP_1.md)
+
+▶ [README_TP_2](README_TP_2.md)
 
 ---
 
