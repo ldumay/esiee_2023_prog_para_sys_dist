@@ -51,4 +51,5 @@ int main(){
 	printf("\n- area:(%f)", area);
 	printf("\n- error:(%f)", error);
 	printf("\n- eps:(%f)", eps);
+	printf("\n", eps);
 }

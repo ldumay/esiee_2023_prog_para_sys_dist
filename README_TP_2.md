@@ -11,7 +11,7 @@ Superficie de l'ensemble de Mandelbrot :
 - Programme parallèle : `tp2_prog1.c`.
 
 ```
-gcc -fopenmp tp2_prog1.c -o tp2_prog1.out && tree && ./tp2_prog1.out
+gcc -fopenmp tp2_prog1.c -o tp2_prog1.out && ls | grep 'tp2_prog1.out' && ./tp2_prog1.out
 ```
 
 > `tp2_prog1.c` : ok ✔
