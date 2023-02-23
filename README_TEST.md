@@ -2,7 +2,11 @@
 
 # Tout les codes de test
 
-Basé sur le PDF du cours (bien entendu privé, il est basé sur ce document officiel de Intel Corp. [▶ICI◀](https://www.openmp.org/wp-content/uploads/omp-hands-on-SC08.pdf)).
+Basé sur le PDF du cours.
+
+Bien entendu, celui-ci est privé mais il est basé sur ce document officiel de Intel Corp. :
+- [▶ICI - PDF direct◀](pdf/omp-hands-on-SC08.pdf)
+- [▶ICI - PDF de OpenMp.org](https://www.openmp.org/wp-content/uploads/omp-hands-on-SC08.pdf).
 
 ## Partie : Travailler avec des boucles
 
