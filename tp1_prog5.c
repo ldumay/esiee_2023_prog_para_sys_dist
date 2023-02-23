@@ -9,7 +9,7 @@ double step;
 void main(){
     int i, nthreads; 
     double pi, sum[NUM_THREADS];
-    step = 1.0 / (double) num_steps;
+    step = 1.0/(double) num_steps;
     omp_set_num_threads(NUM_THREADS);
     #pragma omp parallel
     {
@@ -17,9 +17,9 @@ void main(){
         double  x;
         id = omp_get_thread_num();
         nthrds = omp_get_num_threads();
-        if(id == 0) nthreads = nthrds;
+        if(id == 0)nthreads = nthrds;
         for(i=id, sum[id]=0.0; i<num_steps; i=i+nthrds){
-            x=(i+0.5)*step;
+            x=step*(i+0.5);
             sum[id]+=4.0/(1.0+x*x);
         }
     }
