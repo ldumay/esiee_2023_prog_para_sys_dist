@@ -64,7 +64,7 @@ Correction
 gcc -fopenmp tp1_prog5.c -o tp1_prog5.out && tree && ./tp1_prog5.out
 ```
 
-> `tp1_prog5.c` : ok ✔ mais donne 0.0000 🤷‍♂️
+> `tp1_prog5.c` : ok ✔
 
 -------------------------------------------------------------------------
 
