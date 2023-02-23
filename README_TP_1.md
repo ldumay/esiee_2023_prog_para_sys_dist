@@ -66,17 +66,27 @@ gcc -fopenmp tp1_prog5.c -o tp1_prog5.out && tree && ./tp1_prog5.out
 
 > `tp1_prog5.c` : ok ✔
 
--------------------------------------------------------------------------
-
 ## Programme 3
 
+▶ les fork
+
 ```
-gcc -fopenmp tp1_prog10.c -o tp1_prog10.out
+gcc -fopenmp tp1_prog6.c -o tp1_prog6.out
 tree
-tp1_prog10.c  tp1_prog10.out
-./tp1_prog10.out
+tp1_prog6.c  tp1_prog6.out
+./tp1_prog6.out
 
  je suis le pere, monpid = 3374 et le pid de mon fils = 3375 et le gd pere = 2507
  je suis le fils, monpid = 3375 et le pid de mon pere = 3374
 valeur retournee par mon fils = 20
 ```
+
+## Programme 4
+
+Mise en parallèle du programme `tp1_prog7.c` avec réduction.
+
+```
+gcc -fopenmp tp1_prog7.c -o tp1_prog7.out && tree && ./tp1_prog7.out
+```
+
+> `tp1_prog7.c` : ok ✔
