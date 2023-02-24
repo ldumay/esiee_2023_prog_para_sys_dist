@@ -12,20 +12,20 @@
 
 int main(int argc, char *argv[])
 {
-    int rank;
-    int nprocs;
+	int rank;
+	int nprocs;
 
-    MPI_Init(&argc, &argv);
+	MPI_Init(&argc, &argv);
 
-    MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
-    MPI_Comm_rank(MPI_COMM_WORLD,&rank);
+	MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
+	MPI_Comm_rank(MPI_COMM_WORLD,&rank);
 
-    if (rank % 2 == 0)
-        printf("Rank %d est pair\n", rank);
-    else
-        printf("Rank %d est impair\n", rank);
-    fflush(stdout);
+	if (rank % 2 == 0)
+		printf("Rank %d est pair\n", rank);
+	else
+		printf("Rank %d est impair\n", rank);
+	fflush(stdout);
 
-    MPI_Finalize();
-    return 0;
+	MPI_Finalize();
+	return 0;
 }

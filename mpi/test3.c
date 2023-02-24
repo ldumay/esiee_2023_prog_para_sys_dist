@@ -1,11 +1,20 @@
 #include "mpi.h"
 #include <stdlib.h>
 #include <stdio.h>
+
+/*
+ * Desciption :
+ *    Ce programme est un petit programme de test avec MPI.
+ *    Il permet d'effectuer MPI_Recv
+ * Résultat :
+ *    Il affiche "Moi, processus 5, j’ai recu 1000 du processus 2."
+ */
+
 #define ETIQUETTE 100
 
 int main(int argc, char *argv[]) {
     int rang, valeur;
-    
+
     MPI_Status status;
     MPI_Init (&argc,&argv);
     // process rank (number)
