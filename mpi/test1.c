@@ -12,17 +12,31 @@
 
 int main(int argc, char *argv[])
 {
-   int rank;
-   int nprocs;
+    int rank;
+    int nprocs;
 
-   MPI_Init(&argc, &argv);
+    //Initialisation de MPI - code séquentiel
+    MPI_Init(&argc, &argv);
 
-   MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
-   MPI_Comm_rank(MPI_COMM_WORLD,&rank);
+    /*
+     * Récupération du nombre de processus.
+     * MPI_COMM_WORLD : le communateur, l'ensemble des processus
+     * nprocs : le nombre de processus
+     */
+    MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
+    /*
+     * Parallélisation du code.
+     * Permet de faire commuter le code suivant entre les processus 
+     * selon le nombre de processus.
+     * MPI_COMM_WORLD : le communateur, l'ensemble des processus
+     * rank : le rang du processus
+    */
+    MPI_Comm_rank(MPI_COMM_WORLD,&rank);
 
-   printf("Hello, world. I am %d of %d\n", rank, nprocs);
-   fflush(stdout);
+    printf("Hello, world. I am %d of %d\n", rank, nprocs);
+    fflush(stdout);
 
-   MPI_Finalize();
-   return 0;
+    //Fin de MPI - code parallèle
+    MPI_Finalize();
+    return 0;
 }
