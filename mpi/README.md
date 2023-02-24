@@ -52,6 +52,12 @@ mpirun --hostfile hosts -np 2 test1_exe
 mpicc test2.c -o test2_exe && mpirun -np 2 test2_exe
 ```
 
+### Test 3
+
+```
+mpicc test3.c -o test3_exe && mpirun --hostfile hosts -np 7 test3_exe
+```
+
 ## Nettoyer toutes les compilations
 
 ```
