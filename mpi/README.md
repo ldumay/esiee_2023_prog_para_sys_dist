@@ -41,4 +41,5 @@ Si le processeur n'a pasun nombre de coeurs suffisant, il y a besoin de `hosts`.
 ```
 mpicc test1.c -o test1_exe
 mpirun -np 2 test1_exe
+mpirun --hostfile hosts-np 2 test1_exe
 ```
