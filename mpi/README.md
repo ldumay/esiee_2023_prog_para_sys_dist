@@ -43,3 +43,9 @@ mpicc test1.c -o test1_exe
 mpirun -np 2 test1_exe
 mpirun --hostfile hosts -np 2 test1_exe
 ```
+
+## Nettoyer toutes les compilations
+
+```
+rm -r *_exe
+```
